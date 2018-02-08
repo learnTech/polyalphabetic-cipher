@@ -1,3 +1,4 @@
+// lets try making a change
 let inputMessage, outputMessage;
 let keywordArray = []; //secretKey from user 
 let keywordNumbersArray = []; // store the alphabetic numbers 
