@@ -9,7 +9,7 @@ let alphabetArray = []; // hold the alphabet
 let inputKeyword = []; //hold the keyword
 let encodeButton, decodeButton; //buttons for user to decide which option
 
-
+// change 1
 function setup() {
     setupInterface(); // sets up the user interface
     alphabetArray = Array.from("abcdefghijklmnopqrstuvwxyz "); // array that holds the alphabet, the 26th character is a space
@@ -17,7 +17,7 @@ function setup() {
     decodeButton.mousePressed(decode); //event listener that calls decode function when the decode button is pressed
 }
 
-
+//change 2
 function setupInterface() {
     //this function deals with the setup of user interface. Positioning and sizing all input and output text boxes and buttons.
     noCanvas(); // no need for a canvas as we are not animating
